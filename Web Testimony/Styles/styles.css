@@ -1,0 +1,37 @@
+﻿.background-brick {
+    background-image: linear-gradient(rgba(255,255,255, 0.45), rgba(255, 255, 255, 0.45)), url('Images/brick.jpg');
+    /* you need to match the shadow color to your background or image border for the desired effect */
+    box-shadow: 0 0 15px 15px #1b1e23 inset;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.background-flowers {
+    background-image: url('Images/flowers.jpg');
+    background-size: cover;
+    display: block;
+    overflow: auto;
+}
+
+.background-red {
+    background-image: url('Images/red-rotate.jpg');
+    background-size: cover;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer {
+    height: 0.5em;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
